@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Ayuda') {
       steps {
-        sh 'help'
+        echo 'pepe'
       }
     }
 
